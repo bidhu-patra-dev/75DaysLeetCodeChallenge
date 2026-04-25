@@ -1,14 +1,11 @@
 class WordDictionary {
 public:
     vector<string> v;
-    WordDictionary() {
-        
+    WordDictionary() { 
     }
-    
     void addWord(string word) {
         v.push_back(word);
     }
-    
     bool search(string word) {
         int count=0;
         int n=word.size();
